@@ -59,3 +59,10 @@ the specified capacitance is 10pF load capacitance. To calculate the external ca
 	[Equation](http://www.sciweavers.org/tex2img.php?eq=%20C_%7BL%7D%20%3D%20%20%28C_%7BLp%7D%20-%20C_%7Bs%7D%29%20%2A%202&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
 For this project, the calculated oscillator load capacitance is (10pF - 5pF) * 2 = 10pF.
+
+### USB Interface
+
+Since the USB programming interface was chosen for this project, it was important to develop a capable circuit 
+for the MCU. Reading the USB Hardware and PCB Guidelines document, Table 3, it specifies the supported USB types
+and important footnotes about the data connections. It was found that STM32F1 series MCU support only USB type B 
+and additionally requires a 1k5 Ohm pull-up resistor in D+ line.
