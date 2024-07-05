@@ -66,3 +66,10 @@ Since the USB programming interface was chosen for this project, it was importan
 for the MCU. Reading the USB Hardware and PCB Guidelines document, Table 3, it specifies the supported USB types
 and important footnotes about the data connections. It was found that STM32F1 series MCU support only USB type B 
 and additionally requires a 1k5 Ohm pull-up resistor in D+ line.
+
+### Power Supply
+
+Regulator: AMS1117 // 3.3V fixed output with up to 1A output.
+Considerations
+ - VBUS from USB are typically very noisy and most often (also good practice) require additional filtering.
+In our case the filtering isn't required as the capacitor and regulator will provide decent enough filtering.
