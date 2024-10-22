@@ -5448,6 +5448,17 @@
 		)
 		(uuid "d09df03f-8e8d-4c4f-8b99-dd0fd2df9f9f")
 	)
+	(text "Taken with thanks from\nhttps://github.com/Jzuni97/STM32-Blue-Pill\n\nThis is not the schematic of the Blue Pill boards I have.\nBut it is an approximation."
+		(exclude_from_sim no)
+		(at 54.864 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e75d6c88-4aba-4e35-a3fd-a79bed922dc9")
+	)
 	(text "Analog Power Filtering"
 		(exclude_from_sim no)
 		(at 211.582 44.45 0)
@@ -9412,6 +9423,82 @@
 				(path "/7d8f3a67-a21e-4957-b4f0-becb66090b06"
 					(reference "#PWR022")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 168.91)
+		(size 24.13 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0829fe08-d53f-4eaa-b74e-2f0a0b7803a4")
+		(property "Sheetname" "Less wrong Blue Pill schematic"
+			(at 25.4 168.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 25.4 173.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm32 blue pill"
+				(path "/7d8f3a67-a21e-4957-b4f0-becb66090b06"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 179.07)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6049a681-a5ae-49b7-a3f5-2e53300f3de9")
+		(property "Sheetname" "gps"
+			(at 25.4 178.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gps.kicad_sch"
+			(at 25.4 183.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm32 blue pill"
+				(path "/7d8f3a67-a21e-4957-b4f0-becb66090b06"
+					(page "3")
 				)
 			)
 		)
